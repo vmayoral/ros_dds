@@ -110,3 +110,8 @@ To release a new version of the libopensplice63 debian (rough sketch; we should 
 * Clone the [opensplice](https://github.com/osrf/opensplice) repo.  In there, `git submodule init; git submodule update` to pull in the submodule content that's required.
 * Clone the [release-tools](https://bitbucket.org/osrf/release-tools) repo.
 * In the `opensplice` directory, run: `../release-tools/release.py -r <releasenumber> -a libopensplice63 opensplice <major.minor.patch> <buildpassword>`
+
+# Resources
+* [OMG Specifications](http://www.omg.org/spec/)
+* [OMG Data Distribution Portal](http://portals.omg.org/dds/)
+* [ROS on DDS](http://design.ros2.org/articles/ros_on_dds.html)
